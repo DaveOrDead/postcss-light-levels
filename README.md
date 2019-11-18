@@ -79,7 +79,7 @@ If you do not use PostCSS, add it according to [official docs] and set this plug
 
 | Option name | Usage | Default |
 | ----------- | ----- | ------- |
-| prefix | if `.light-level-` doesn't work for you, change the prefix that comes before ['dim' | 'normal' | 'washed'] with this option.  | '.light-level-' |
+| prefix | if `.light-level-` doesn't work for you, change the prefix that comes before ['dim' / 'normal' / 'washed'] with this option.  | '.light-level-' |
 
 
 ## License
