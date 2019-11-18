@@ -15,12 +15,12 @@ It is worth nothing that both the JS library and post-css plugin can be used ind
 [light-levels]: https://github.com/DaveOrDead/light-levels
 [postcss]: https://github.com/postcss/postcss
 [light-level css @media feature]: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/light-level
-[build-badge]: https://travis-ci.com/DaveOrDead/post-csslight-levels.svg?branch=master
-[build]: https://travis-ci.com/DaveOrDead/post-csslight-levels
-[npm-badge]: https://raster.shields.io/npm/v/post-csslight-levels.png
-[npm]: https://www.npmjs.com/package/post-csslight-levels
-[coveralls-badge]: https://coveralls.io/repos/github/DaveOrDead/post-csslight-levels/badge.svg?branch=master
-[coveralls]: https://coveralls.io/github/DaveOrDead/post-csslight-levels?branch=master
+[build-badge]: https://travis-ci.com/DaveOrDead/postcss-light-levels.svg?branch=master
+[build]: https://travis-ci.com/DaveOrDead/postcss-light-levels
+[npm-badge]: https://raster.shields.io/npm/v/postcss-light-levels.png
+[npm]: https://www.npmjs.com/package/postcss-light-levels
+[coveralls-badge]: https://coveralls.io/repos/github/DaveOrDead/postcss-light-levels/badge.svg?branch=master
+[coveralls]: https://coveralls.io/github/DaveOrDead/postcss-light-levels?branch=master
 
 Write your CSS rules in the upcoming syntax:
 ```css
