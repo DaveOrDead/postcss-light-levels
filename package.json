@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "jest && eslint .",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --collect-coverage"
   },
   "author": "Dave <davidajberner@gmail.com>",
   "license": "MIT",
