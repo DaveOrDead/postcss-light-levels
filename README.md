@@ -57,7 +57,7 @@ A working demo can be found here: [https://daveordead.github.io/light-levels-dem
 ## Installation
 
 ```sh
-npm install postcss-light-levels --save
+npm install postcss-light-levels --save-dev
 ```
 
 ## Usage
