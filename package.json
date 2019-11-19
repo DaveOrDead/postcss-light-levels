@@ -1,6 +1,6 @@
 {
   "name": "postcss-light-levels",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin for polyfilling the light-level CSS media feature.",
   "keywords": [
     "postcss",
