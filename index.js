@@ -5,7 +5,7 @@ const getMediaQueryFunction = require('./lib/get-media-query-function')
 
 module.exports = postcss.plugin('postcss-light-levels', options => {
   /* eslint-disable-next-line */
-  let prefix = (options && options.prefix) || ".light-levels-";
+  let prefix = (options && options.prefix) || ".light-level-";
 
   if (typeof prefix !== 'string') {
     throw new Error('prefix option must be a string')
