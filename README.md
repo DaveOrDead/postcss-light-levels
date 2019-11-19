@@ -44,11 +44,15 @@ Light Levels will convert it into syntax the browser understands
 
 ## Table of Contents
 
+- [Demo](#Demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Options](#options)
 - [License](#license)
 
+## Demo
+
+A working demo can be found here: [https://daveordead.github.io/light-levels-demo/](https://daveordead.github.io/light-levels-demo/)
 
 ## Installation
 
