@@ -6,9 +6,9 @@ A [PostCSS] plugin for polyfilling the [light-level CSS @media feature].
 
 This media feature can be used to adjust styles based on the ambient light level - however since it's from a relatively recent Working Draft, it currently has zero browser support.
 
-This polyfill allows you to write the upcoming syntax but uses it to generate class names which you can apply to the `<body>` element in your HTML in order to achieve the same behaviour today.
+This polyfill allows you to write the upcoming syntax but uses it to generate class names which you can apply to the `<html>` element in your HTML in order to achieve the same behaviour today.
 
-It is recommended to combine this plugin with the client side JS library [light-levels] which detects ambient light levels and applies the corresponding class name to the `<body>` element.
+It is recommended to combine this plugin with the client side JS library [light-levels] which detects ambient light levels and applies the corresponding class name to the `<html>` element.
 
 It is worth nothing that both the JS library and post-css plugin can be used independently if you wish.
 
@@ -62,7 +62,7 @@ npm install postcss-light-levels --save-dev
 
 ## Usage
 
-Check your project for existed PostCSS config: `postcss.config.js` in the project root, `"postcss"` section in `package.json` or `postcss` in bundle config.
+Check your project for existing PostCSS config: `postcss.config.js` in the project root, `"postcss"` section in `package.json` or `postcss` in bundle config.
 
 If you already use PostCSS, add the plugin to plugins list:
 
@@ -83,7 +83,7 @@ If you do not use PostCSS, add it according to [official docs] and set this plug
 
 | Option name | Usage | Default |
 | ----------- | ----- | ------- |
-| prefix | if `.light-level-` doesn't work for you, change the prefix that comes before ['dim' / 'normal' / 'washed'] with this option.  | '.light-level-' |
+| prefix | if the prefix `.light-level-` doesn't suit your code base, you can change it to something more appropriate with this option. Note: The postfix names of ['dim' \ 'normal' \ 'washed'] can not be modified. If you are using this in combination with the PostCSS plugin you should also update the prefix option there.  | '.light-level-' |
 
 
 ## License
