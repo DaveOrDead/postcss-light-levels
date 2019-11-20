@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "jest && eslint .",
-    "test:coverage": "jest --coverage && cat ./coverage/lcov.info"
+    "test:coverage": "jest --coverage && eslint"
   },
   "author": "Dave <davidajberner@gmail.com>",
   "license": "MIT",

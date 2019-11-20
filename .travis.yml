@@ -7,6 +7,8 @@ node_js:
   - "10"
   - "8"
 
+script: npm run test:coverage
+
 before_install:
   - npm install codecov.io coveralls
 
