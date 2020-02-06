@@ -10,7 +10,7 @@ async function run (input, output, opts) {
   expect(result.warnings()).toHaveLength(0)
 }
 
-it(`Should not change media queries which do not specify a
+it(`should not change media queries which do not specify a
 light-level`, async () => {
   await run(
     `@media screen and (min-width: 480px) {
@@ -27,7 +27,7 @@ light-level`, async () => {
   )
 })
 
-it(`Should replace @media rules with the correct classname for multiple
+it(`should replace @media rules with the correct classname for multiple
 parameter queries and honour the remaining AND parameters`, async () => {
   await run(
     `@media (light-level: normal) and (max-width: 250px) {
@@ -54,7 +54,7 @@ parameter queries and honour the remaining AND parameters`, async () => {
   )
 })
 
-it(`Should replace @media rules with the correct classname for single
+it(`should replace @media rules with the correct classname for single
 parameter queries`, async () => {
   await run(
     `@media (light-level: normal) {
