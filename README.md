@@ -88,7 +88,7 @@ If you do not use PostCSS, add it according to [official docs] and set this plug
 
 ## License
 
-Copyright (c) 2019 [David Berner](http://davidberner.co.uk)
+Copyright (c) 2020 [David Berner](http://davidberner.co.uk)
 
 Licensed under the MIT license _(see [LICENSE.md](https://github.com/daveordead/postcss-light-levels/blob/master/LICENSE) for more details)_
 
